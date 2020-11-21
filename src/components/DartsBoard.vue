@@ -727,6 +727,16 @@
   </div>
 </template>
 
+<script>
+export default {
+  methods: {
+    hit(point) {
+      this.$store.dispatch("settings/hitAction", { number: point });
+    }
+  }
+};
+</script>
+
 <style lang="stylus" scoped>
 .board-container {
   justify-content: center;
