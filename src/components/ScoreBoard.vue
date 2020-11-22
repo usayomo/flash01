@@ -74,6 +74,10 @@
 
 <script>
 export default {
+  mounted() {
+    // スコア初期化
+    this.$store.dispatch("settings/scoreInitAction");
+  },
   computed: {
     getScore() {
       return this.$store.state.settings.score;

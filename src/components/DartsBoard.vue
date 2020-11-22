@@ -1,5 +1,5 @@
 <template>
-  <div class="text-center board-container">
+  <div class="board-container">
     <svg
       width="90%"
       height="90%"
@@ -17,7 +17,7 @@
       />
       <path
         id="outerbull"
-        @click="hit(25, bullseyeRuleState)"
+        @click="hit(25)"
         d="M1396 1176C1396 1280.38 1311.38 1365 1207 1365C1102.62 1365 1018 1280.38 1018 1176C1018 1071.62 1102.62 987 1207 987C1311.38 987 1396 1071.62 1396 1176ZM1207 1252C1248.97 1252 1283 1217.97 1283 1176C1283 1134.03 1248.97 1100 1207 1100C1165.03 1100 1131 1134.03 1131 1176C1131 1217.97 1165.03 1252 1207 1252Z"
         fill="#FF0000"
         stroke="black"
